@@ -1,0 +1,3 @@
+          <?php foreach($chaptlist as $item){?>
+          <li><a href="bookinfo.php?chaid=<?php echo $item['id'];?>&&bookid=<?php echo $item['bookid'];?>"><?php echo $item['title'];?></a></li>
+          <?php }?>
